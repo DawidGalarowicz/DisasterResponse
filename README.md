@@ -80,11 +80,13 @@ To prepare all files needed by the app, run the commands in the following order:
 python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 python discover_languages.py
 
-# In the "models" folder.
+# In the "models" folder:
 python train_classifier.py ../data/DisasterResponse.db classifier.pkl
 ```
 
 Your data is now ready and your pickled model has been created!
+
+Finally, you can run the app!
 
 <a name="licensing"/></a>
 ## Licensing & Acknowledgements
